@@ -1,0 +1,14 @@
+function strLength(string) { 
+    var sentence = string.split(" ");
+    var wordsCount = sentence.length
+    var charCount = 0;
+    
+    for(var i in sentence) {
+        charCount += sentence[i].length
+    }
+  
+    console.log(vowelsCount)
+    console.log(charCount)
+    console.log(wordsCount)
+}
+strLength("Hello world.")
